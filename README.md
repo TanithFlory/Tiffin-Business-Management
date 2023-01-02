@@ -4,7 +4,7 @@
 **2.Back-End**: VisualBasic.NET
 **3.Database**: MySQL
 
-![MainWindow 02-01-2023 13_38_38](https://user-images.githubusercontent.com/119393271/210212089-75c85bc2-ad13-450f-b403-102513ac850f.png)
+![MainWindow 02-01-2023 14_42_54](https://user-images.githubusercontent.com/119393271/210212418-3be88000-40cf-4f9c-86cb-5f26045de4c8.png)
 
 ![MainWindow 02-01-2023 13_38_46](https://user-images.githubusercontent.com/119393271/210212095-d0814d02-1141-47d4-9faf-43145e38d4bc.png)
 
