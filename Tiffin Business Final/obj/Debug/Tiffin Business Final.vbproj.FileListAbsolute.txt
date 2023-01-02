@@ -1,0 +1,52 @@
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\bin\Debug\Tiffin Business Final.exe.config
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\bin\Debug\Tiffin Business Final.exe
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\bin\Debug\Tiffin Business Final.pdb
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\bin\Debug\Tiffin Business Final.xml
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\bin\Debug\Google.Protobuf.dll
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\bin\Debug\MySql.Data.dll
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\bin\Debug\System.Buffers.dll
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\bin\Debug\System.Memory.dll
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\bin\Debug\ZstdNet.dll
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\bin\Debug\Google.Protobuf.pdb
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\bin\Debug\Google.Protobuf.xml
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\bin\Debug\MySql.Data.xml
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\bin\Debug\System.Buffers.xml
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\bin\Debug\System.Memory.xml
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\obj\Debug\Tiffin Business Final.vbproj.AssemblyReference.cache
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\obj\Debug\Tiffin Business Final.vbproj.SuggestedBindingRedirects.cache
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\obj\Debug\Resources\ButtonResources.baml
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\obj\Debug\Resources\ControlIcons.baml
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\obj\Debug\Resources\TextBoxAnimation.baml
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\obj\Debug\MainWindow.g.vb
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\obj\Debug\ViewModel\DashBoard.g.vb
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\obj\Debug\ViewModel\HomePage.g.vb
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\obj\Debug\Views\LoginPage.g.vb
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\obj\Debug\Application.g.vb
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\obj\Debug\Tiffin Business Final_MarkupCompile.cache
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\obj\Debug\Tiffin Business Final_MarkupCompile.lref
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\obj\Debug\Application.baml
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\obj\Debug\MainWindow.baml
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\obj\Debug\Resources\DataGridDictionary.baml
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\obj\Debug\ViewModel\DashBoard.baml
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\obj\Debug\ViewModel\HomePage.baml
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\obj\Debug\Views\LoginPage.baml
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\obj\Debug\Tiffin Business Final.g.resources
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\obj\Debug\Tiffin_Business_Final.Resources.resources
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\obj\Debug\Tiffin Business Final.vbproj.GenerateResource.cache
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\obj\Debug\Tiffin Business Final.vbproj.CoreCompileInputs.cache
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\obj\Debug\Tiffin Business Final.vbproj.CopyComplete
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\obj\Debug\Tiffin Business Final.exe
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\obj\Debug\Tiffin Business Final.xml
+C:\Users\tanit\source\repos\Tiffin Business Final\Tiffin Business Final\obj\Debug\Tiffin Business Final.pdb

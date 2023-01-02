@@ -1,0 +1,34 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tiffin_Business_Final"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="720" Width="1140"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        WindowState="Normal"
+        AllowsTransparency="True"
+        Background="Transparent"
+        UseLayoutRounding="True"
+        BorderBrush="Transparent"
+        BorderThickness="0"
+        MouseDown="Window_MouseDown">
+
+    <Grid>
+        <Frame x:Name="NavigationUIDisabler" Margin="0,0,0,0" Source="/Views/LoginPage.xaml">
+        </Frame>
+        <Grid Grid.Column="1">
+                <Button ToolTip="Close"
+                        x:Name="CloseButton"
+                        Style="{StaticResource ControlsExit}" 
+                        Content="X" Margin="1080,19,20,661"/>
+                <Button ToolTip="Minimize"
+                        x:Name="MinimizeButton"
+                        Style="{StaticResource ControlsMinimize}" 
+                            Content="—" Margin="1035,19,65,661" />
+            </Grid>
+    </Grid>
+</Window>

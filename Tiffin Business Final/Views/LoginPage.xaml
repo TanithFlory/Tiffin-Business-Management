@@ -1,0 +1,202 @@
+﻿<Page x:Class="LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Tiffin_Business_Final"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1140"
+      Title="LoginPage"
+      UseLayoutRounding="True"
+      Background="Transparent">
+
+    <Grid>
+        <Border CornerRadius="50"
+            BorderThickness="5">
+            <Border.Background>
+                <ImageBrush RenderOptions.BitmapScalingMode="HighQuality"
+                    ImageSource="/Images/BackgroundLoginPage.png"/>
+            </Border.Background>
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#F0932B" Offset="0"/>
+                    <GradientStop Color="#FE0000" Offset="0.8"/>
+                    <GradientStop Color="#37C453" Offset="0.5"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="300"/>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="100"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="450"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <!-- Logo and Welcome Stackpanel alignment -->
+                <StackPanel 
+                        Grid.Column="1" Grid.Row="1"
+                        Background="#90F0F0F0"
+                        Orientation="Vertical" Grid.RowSpan="3" Grid.ColumnSpan="2" Margin="230,10,344,68">
+                    <TextBlock Text="Welcome Back!"
+                       FontSize="34"
+                       HorizontalAlignment="Center"
+                       Grid.Row="0"
+                       Grid.Column="1"
+                       Margin="5"
+                       FontFamily="Ubuntu"
+                       FontWeight="Bold"
+                       Foreground="Black"/>
+                    <Image Source="\Images\Logo.png"
+                       Width="350" Height="344" Margin="-30"
+                           RenderOptions.BitmapScalingMode="HighQuality"/>
+                    <WrapPanel>
+                        <TextBlock Padding="0,9,0,0"
+                            Margin="10,0,0,0"
+                           Text="Username "
+                           FontSize="24"
+                           FontFamily="Ubuntu" Height="39"
+                           Foreground="Black"/>
+                        <TextBox x:Name="username"
+                         FontFamily="Ubuntu"
+                         FontSize="18" Width="298" Height="33"
+                         Foreground="Black"
+                         BorderBrush="DarkGray"
+                         BorderThickness="0,0,0,2"
+                         Padding="20,10,0,0"
+                         FontWeight="Bold">
+                            <TextBox.Background>
+                                <ImageBrush RenderOptions.BitmapScalingMode="HighQuality"
+                                    ImageSource="\Images\user.png"
+                                    Stretch="Uniform"
+                                    AlignmentX="Left">
+                                    <ImageBrush.Transform>
+                                        <ScaleTransform ScaleX="0.6" ScaleY="1"/>
+                                    </ImageBrush.Transform>
+                                </ImageBrush>
+                            </TextBox.Background>
+                        </TextBox>
+                    </WrapPanel>
+                    <WrapPanel>
+                        <TextBlock Text="Password "
+                           FontSize="24"
+                           Padding="6,0,0,0"
+                           FontFamily="Ubuntu" Height="32"
+                           Foreground="Black"
+                           Margin="7,17,0,0"/>
+                        <PasswordBox x:Name="password"
+                         FontFamily="Ubuntu"
+                         FontSize="18" Width="296" Height="32"
+                         Foreground="Black"
+                         
+                         BorderBrush="DarkGray"
+                         BorderThickness="0,0,0,2"
+                         Padding="20,10,0,0"
+                         Margin="5"
+                             Visibility="Visible">
+                            <PasswordBox.Background>
+                                <ImageBrush RenderOptions.BitmapScalingMode="HighQuality"
+                                    ImageSource="\Images\key.png"
+                                    Stretch="Uniform"
+                                    AlignmentX="Left">
+                                    <ImageBrush.Transform>
+                                        <ScaleTransform ScaleX="0.6" ScaleY="1"/>
+                                    </ImageBrush.Transform>
+                                </ImageBrush>
+                            </PasswordBox.Background>
+                        </PasswordBox>
+                        <Image ToolTip="Show Password"
+                            RenderOptions.BitmapScalingMode="HighQuality"  x:Name="Eye_img" Source="\Images\eye.png" Height="41" Width="30"/>
+                    </WrapPanel>
+
+                    <Button x:Name="loginbtn"
+                        Content="LOGIN"
+                        Foreground="White"
+                        FontSize="32"
+                        Cursor="Hand"
+                        FontWeight="SemiBold"
+                        Width="154"
+                        Height="64">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="#FF871D"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#30AC49"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="150" Height="70"
+                                    CornerRadius="15"
+                                    Background="{TemplateBinding Background}" Margin="2,0,2,-22">
+                                    <ContentPresenter VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                    <Button Click="ChangePass_Click"
+                        x:Name="ChangePass"
+                        Margin="0,15,0,0"
+                        HorizontalAlignment="Right"
+                    Background="Transparent"
+                    BorderThickness="0">
+                    <StackPanel Orientation="Horizontal">
+                        <Image RenderOptions.BitmapScalingMode="HighQuality" Width="15" Source="\Images\ChangePasswordIcon.png"/>
+                            <TextBlock Text="Change Password" FontSize="15"
+                                   Foreground="Black"
+                                   Background="Transparent"/>
+                        
+                        </StackPanel>
+                </Button>
+                </StackPanel>
+                <ProgressBar Grid.Row="3"
+                         Margin="0,79,0,-9" Grid.ColumnSpan="3"
+                         Background="#FF871D"
+                         Foreground="#729F2A"
+                         Orientation="Vertical"
+                         IsIndeterminate="False"
+                         x:Name="progressbar"
+                         Minimum="0"
+                         Maximum="100"/>
+                <!-- Username Txtbox Alignment -->
+
+                <!-- Password Txtbox Alignment -->
+                <TextBox FontWeight="Bold"
+                         FontFamily="Ubuntu"
+                         FontSize="18" Width="296" Height="32"
+                         Foreground="Black"
+                         BorderBrush="DarkGray"
+                         BorderThickness="0,0,0,2"
+                         Grid.Column="1"
+                         Grid.Row="2"
+                         Visibility="Hidden"
+                         Padding="20,10,0,0"
+                         x:Name="pwtxtbox" Grid.ColumnSpan="2" Margin="354,91,380,78">
+                    <TextBox.Background>
+                        <ImageBrush ImageSource="\Images\key.png"
+                                    Stretch="Uniform"
+                                    AlignmentX="Left"
+                                    RenderOptions.BitmapScalingMode="HighQuality">
+                            <ImageBrush.Transform>
+                                <ScaleTransform ScaleX="0.6" ScaleY="1"/>
+                            </ImageBrush.Transform>
+                        </ImageBrush>
+                    </TextBox.Background>
+                </TextBox>
+                <Image ToolTip="Hide Password"
+                       RenderOptions.BitmapScalingMode="HighQuality"
+                       x:Name="EyeBlock_img" Source="\Images\eye-crossed.png"
+                       Height="41" Width="30"
+                       Visibility="Hidden" Grid.Column="2" Margin="205,88,345,72" Grid.Row="2"/>
+
+            </Grid>
+        </Border>
+    </Grid>
+</Page>

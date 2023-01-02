@@ -1,0 +1,17 @@
+﻿<Application x:Class="Application"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Tiffin_Business_Final"
+    StartupUri="Mainwindow.xaml"
+    xmlns:theme="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/TextBoxAnimation.xaml"/>
+                <ResourceDictionary Source="/Resources/DataGridDictionary.xaml"/>
+                <ResourceDictionary Source="/Resources/ButtonResources.xaml"/>
+                <ResourceDictionary Source="/Resources/ControlIcons.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

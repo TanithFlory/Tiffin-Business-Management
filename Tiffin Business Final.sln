@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Tiffin Business Final", "Tiffin Business Final\Tiffin Business Final.vbproj", "{FB0D8DBC-7BB6-415B-A6E6-3A3F0F83E9AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4D634B91-B0C8-4BCA-A54B-FE367EBBCC6E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BayTiffin", "BayTiffin\BayTiffin.vdproj", "{73D6595B-2BE7-4011-93C3-A6FBC3BBC6EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB0D8DBC-7BB6-415B-A6E6-3A3F0F83E9AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB0D8DBC-7BB6-415B-A6E6-3A3F0F83E9AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB0D8DBC-7BB6-415B-A6E6-3A3F0F83E9AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB0D8DBC-7BB6-415B-A6E6-3A3F0F83E9AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73D6595B-2BE7-4011-93C3-A6FBC3BBC6EB}.Debug|Any CPU.ActiveCfg = Debug
+		{73D6595B-2BE7-4011-93C3-A6FBC3BBC6EB}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CC5EC6C-19EB-4FE0-B522-8120482A47B5}
+	EndGlobalSection
+EndGlobal
