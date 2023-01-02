@@ -3,7 +3,7 @@ Imports MySql.Data.MySqlClient
 Imports System.Data
 
 Class HomePage
-    Dim connectionString As String = "SERVER=localhost;DATABASE=;UID=root;PASSWORD=123123!Aa;database=tiffinbusiness"
+    Dim connectionString As String = "SERVER=localhost;DATABASE=;UID=root;PASSWORD=root;database=tiffinbusiness"
     Dim Con As MySqlConnection = New MySqlConnection(connectionString)
     Dim Cmd As MySqlCommand = New MySqlCommand
     Private Sub Dashboardbtn_Click(sender As Object, e As RoutedEventArgs)
