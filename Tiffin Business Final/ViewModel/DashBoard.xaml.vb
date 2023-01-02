@@ -7,7 +7,7 @@ Imports Mysqlx.XDevAPI.Relational
 Imports System.Threading
 
 Class DashBoard
-    Dim connectionString As String = "SERVER=localhost;DATABASE=;UID=root;PASSWORD=123123!Aa;database=tiffinbusiness"
+    Dim connectionString As String = "SERVER=localhost;DATABASE=;UID=root;PASSWORD=root;database=tiffinbusiness"
     Dim Con As MySqlConnection = New MySqlConnection(connectionString)
     Dim Cmd As MySqlCommand = New MySqlCommand
     Dim Reader As MySqlDataReader
