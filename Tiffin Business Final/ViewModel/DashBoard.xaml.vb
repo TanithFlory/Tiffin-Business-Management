@@ -74,8 +74,7 @@ Class DashBoard
                                                     '" & PhoneNumberBox.Text & "',
                                                     '" & checkboxContent0 & "',
                                                     '" & checkboxContent1 & "',
-                                                    '" &
-                                                                   RiceBox.Text & "',
+                                                    '" & RiceBox.Text & "',
                                                     '" & AddressBox.Text & "',
                                                     '" & ExtraInfoBox.Text & "',
                                                     '" & EmailIDBox.Text & "'
