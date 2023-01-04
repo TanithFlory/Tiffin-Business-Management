@@ -40,7 +40,7 @@
                 <StackPanel 
                         Grid.Column="1" Grid.Row="1"
                         Background="#90F0F0F0"
-                        Orientation="Vertical" Grid.RowSpan="3" Grid.ColumnSpan="2" Margin="230,10,344,68">
+                        Orientation="Vertical" Grid.RowSpan="3" Grid.ColumnSpan="2"  Margin="226,10,326,68">
                     <TextBlock Text="Welcome Back!"
                        FontSize="34"
                        HorizontalAlignment="Center"
