@@ -178,7 +178,7 @@
                          Grid.Row="2"
                          Visibility="Hidden"
                          Padding="20,10,0,0"
-                         x:Name="pwtxtbox" Grid.ColumnSpan="2" Margin="354,91,380,78">
+                         x:Name="pwtxtbox" Grid.ColumnSpan="2" Margin="350,91,384,78">
                     <TextBox.Background>
                         <ImageBrush ImageSource="\Images\key.png"
                                     Stretch="Uniform"
@@ -194,7 +194,7 @@
                        RenderOptions.BitmapScalingMode="HighQuality"
                        x:Name="EyeBlock_img" Source="\Images\eye-crossed.png"
                        Height="41" Width="30"
-                       Visibility="Hidden" Grid.Column="2" Margin="205,88,345,72" Grid.Row="2"/>
+                       Visibility="Hidden" Grid.Column="2" Margin="201,88,349,73" Grid.Row="2"/>
 
             </Grid>
         </Border>
